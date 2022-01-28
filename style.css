@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+  margin: 0;
+  padding: 0 0 54px 0;
+  text-align: center;
+  font-family: 'Inter';
+  background-color: #121219;
+  color: #F0F0FA;
+}
+
+.header {
+  margin-top: 32px;
+  padding: 16px 32px;
+}
+
+.header__title {
+  margin: 16px 0;
+  font-family: 'Outfit';
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.block-list {
+  margin: 32px 0;
+}
+
+.block-list__title {
+  margin: 16px 0;
+  font-family: 'Outfit';
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.block-list__items {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.block-list__item {
+  margin: 12px 0;
+  padding: 0;
+}
+
+.block-list__item-link {
+  padding: 8px;
+  font-size: 16px;
+  color: #4242EE;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+.block-list__item-link:hover,
+.block-list__item-link:visited {
+  opacity: .6;
+}
